@@ -37,7 +37,7 @@ I am a Back-End Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
 
 - :zap: In my free time, I solve problems on Linux Tech Forms, Work on Engine Specs research paprts and read tech reports on cars.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)]([your-linkedin-url](https://www.linkedin.com/in/mantej-singh-arora-724219288/))
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/mantej-singh-arora-724219288/)
 
 - 🌱 I’m currently working on projects!
 <!---
