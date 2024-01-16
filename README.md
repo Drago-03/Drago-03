@@ -1,13 +1,29 @@
 # Hi, I'm Drago 🫧
-
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
+<div align="center">
+<div id="badges">
+  <a href="https://www.linkedin.com/in/mantej-singh-arora-724219288/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://www.youtube.com/channel/UCFfqIL0rItPZNrlyScJxWPw">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="https://twitter.com/_gear_head_03_">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</div>
+<div id="badges">
+ <img src="https://komarev.com/ghpvc/?username=Drago-03&style=flat-square&color=blue" alt=""/>
+</div>
+<h1>
+  Hey Stalker
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
+  </div>
 
 - 🌱 I’m currently working on projects!
-
-Reach me through:
-- Email: mantejarora@gmail.com/hitmanagent404@gmail.com
-- College Email: 23BAM80003@cuchd.in
-- Discord: @drago.exe
-- Disocrd Server: https://discord.gg/sinisterishere
 <!---
 Drago-03/Drago-03 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
