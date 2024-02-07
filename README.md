@@ -69,12 +69,3 @@ I am a Back-End Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
 
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Drago-03&theme=dark)](https://git.io/streak-stats)
-
----
-
-### :writing_hand: Blog Posts/Research Papers :
-
-<!---
-Drago-03/Drago-03 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
