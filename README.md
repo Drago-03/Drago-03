@@ -31,8 +31,6 @@
 
 ### :man_technologist: About Me :
 
-[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/950609706760691752?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else...)](https://discord.com/users/950609706760691752)
-
 I am a Back-End Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
 
 - :telescope: I’m working as a Automobile Engineer and contributing to backend services.
