@@ -35,9 +35,9 @@ I am a Back-End Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
 
 - :telescope: I’m working as a computer Engineer (Dropped out Automobile Engineer) and contributing to backend services.
 
-- :seedling: Exploring Technical Content Writing.
+- :seedling: Exploring Technical Content Writing as a Tech Nerd who loves to travel.
 
-- :zap: In my free time, I solve problems on Linux Tech Forms, Work on Engine Specs research paprts and read tech reports on cars.
+- :zap: In my free time, I solve problems on Linux Tech Forms, Work on Engines and read tech reports on cars and new technology.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Drago-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/mantej-singh-a-724219288/)
 
