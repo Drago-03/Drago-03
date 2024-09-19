@@ -33,7 +33,7 @@
 
 I am a Back-End Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
 
-- :telescope: I’m working as a Automobile Engineer and contributing to backend services.
+- :telescope: I’m working as a computer Engineer (Dropped out Automobile Engineer) and contributing to backend services.
 
 - :seedling: Exploring Technical Content Writing.
 
