@@ -211,7 +211,4 @@ me = Drago()
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1000&color=6AD3FF&center=true&vCenter=true&repeat=false&width=500&lines=Happy+Coding!+Feel+free+to+connect+and+collaborate!" alt="Footer Typing SVG" />
   
   <br>
-  
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
 </div>
