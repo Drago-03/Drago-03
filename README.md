@@ -39,3 +39,12 @@
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Drago-03&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
+## GitHub Stats
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Drago-03&theme=dark&hide_border=true)
+
+![GitHub Contributions](https://github-readme-stats.vercel.app/api?username=Drago-03&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
+
+![GitHub Yearly Contributions](https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&layout=compact&theme=dark&hide_border=true)
+
+![GitHub Monthly Contributions](https://github-readme-stats.vercel.app/api?username=Drago-03&show_icons=true&theme=dark&hide_border=true&count_private=true&range=monthly)
