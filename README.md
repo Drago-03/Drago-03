@@ -33,24 +33,24 @@ class Drago:
         self.title = "Back-End Developer & Tech Enthusiast"
         self.education = {
             "background": "Dropped out Automobile Engineer",
-            "current_pursuit": "Self-taught Developer"
+            "current_pursuit": "Self-taught Developer and learning cybersecurity tools"
         }
         self.current_focus = [
             "Backend Services Development",
             "GenAI Projects",
-            "Event Management"
+            "Cybersecurity Tools"
         ]
         self.passions = {
-            "technical": ["Linux", "System Architecture", "Cloud Computing"],
-            "automotive": ["Racing", "Car Mechanics", "New Technologies"],
-            "personal": ["Travel", "Technical Writing", "Problem Solving"]
+            "technical": ["Linux", "System Architecture", "Cloud Computing", "Internet of Things", "Generative AI", "Machine Learning"],
+            "automotive": ["Racing", "Car Mechanics", "New Technologies", "Modifications"],
+            "personal": ["Travel", "Technical Writing", "Problem Solving", "Documentations"]
         }
     
     def get_fun_fact(self):
         return "I can talk about cars and code all day! ⚡"
     
     def daily_routine(self):
-        return ["Code", "Debug", "Coffee", "Repeat"]
+        return ["Code", "Debug", "Coffee", "sleep", "Repeat"]
 
 # Creating Drago instance
 me = Drago()
