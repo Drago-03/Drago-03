@@ -57,9 +57,9 @@ me = Drago()
 ```
 
 <div align="center">
-  <img src="https://media0.giphy.com/media/iJDLBX5GY8niCpZYkR/source.gif" alt="Racing Car GIF" width="150" height="100"/>
-  <img src="https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="Laptop Typing GIF" width="150" height="100"/>
-  <img src="https://i.gifer.com/origin/89/894182626f762e66170dab57945c4b9e.gif" alt="Globe Spinning GIF" width="150" height="100"/>
+  <img src="https://media0.giphy.com/media/iJDLBX5GY8niCpZYkR/source.gif" alt="Racing Car GIF" width="275" height="200"/>
+  <img src="https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="Laptop Typing GIF" width="275" height="200"/>
+  <img src="https://i.gifer.com/origin/89/894182626f762e66170dab57945c4b9e.gif" alt="Globe Spinning GIF" width="275" height="200"/>
 </div>
 
 ## 🛠️ Tech Stack & Tools 
