@@ -57,9 +57,9 @@ me = Drago()
 ```
 
 <div align="center">
-  <img src="https://media0.giphy.com/media/iJDLBX5GY8niCpZYkR/source.gif" alt="Racing Car GIF" width="275" height="200"/>
-  <img src="https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="Laptop Typing GIF" width="275" height="200"/>
-  <img src="https://i.gifer.com/origin/89/894182626f762e66170dab57945c4b9e.gif" alt="Globe Spinning GIF" width="275" height="200"/>
+  <img src="https://media0.giphy.com/media/iJDLBX5GY8niCpZYkR/source.gif" alt="Racing Car GIF" width="275" height="185"/>
+  <img src="https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="Laptop Typing GIF" width="275" height="185"/>
+  <img src="https://i.gifer.com/origin/89/894182626f762e66170dab57945c4b9e.gif" alt="Globe Spinning GIF" width="275" height="185"/>
 </div>
 
 ## 🛠️ Tech Stack & Tools 
@@ -201,7 +201,15 @@ me = Drago()
   
 </div>
 
+### 👨‍💻My LeetCode Stats
 <div align="center">
+  
+![LeetCode Stats](https://leetcard.jacoblin.cool/drago_03?theme=dark&font=baloo&ext=activity)
+  
+</div>
+
+<div align="center">
+  
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling"/>
 </div>
 
