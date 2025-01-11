@@ -2,6 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=4000&pause=1000&color=6AD3FF&center=true&vCenter=true&random=false&width=500&height=70&lines=Hi+%F0%9F%91%8B+I'm+Drago" alt="Typing SVG" />
 </div>
 
+
 <div align="center">
   <img src="https://github-stats-alpha.vercel.app/api?username=Drago-03&cc=22272e&tc=37BCF6&ic=fff&bc=0000" alt="Drago's GitHub Stats">
 </div>
