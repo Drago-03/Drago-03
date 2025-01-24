@@ -174,19 +174,25 @@ me = Drago()
 ## 🏆 Achievements
 
 <div align="center"> 
+  
   [![Trophy](https://github-profile-trophy.vercel.app/?username=Drago-03&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/Drago-03)
+  
 </div>
 
 ## 📈 Contribution Graph
 
 <div align="center">
+  
   [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Drago-03&theme=tokyo-night&hide_border=true&radius=10&area=true&height=300)](https://github.com/Drago-03)
+  
 </div>
 
 ### 💡 A Quote to Ponder
 
 <div align="center">
+  
   [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&animation=grow_out_in)](https://github.com/Drago-03)
+  
 </div>
 
 ### 🌟 Top Repositories
