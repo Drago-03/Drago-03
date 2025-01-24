@@ -167,31 +167,26 @@ me = Drago()
 
 <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Drago-03&theme=tokyonight&hide_border=true&border_radius=10&card_width=500" alt="GitHub Streak"/>
+</div>
+<div align="center">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&border_radius=10&card_width=500" alt="Top Languages"/>  
 </div>
-
 ## 🏆 Achievements
 
-<div align="center">
-  
+<div align="center"> 
   [![Trophy](https://github-profile-trophy.vercel.app/?username=Drago-03&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/Drago-03)
-  
 </div>
 
 ## 📈 Contribution Graph
 
 <div align="center">
-  
   [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Drago-03&theme=tokyo-night&hide_border=true&radius=10&area=true&height=300)](https://github.com/Drago-03)
-  
 </div>
 
 ### 💡 A Quote to Ponder
 
 <div align="center">
-  
   [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&animation=grow_out_in)](https://github.com/Drago-03)
-  
 </div>
 
 ### 🌟 Top Repositories
