@@ -168,9 +168,11 @@ me = Drago()
 <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Drago-03&theme=tokyonight&hide_border=true&border_radius=10&card_width=500" alt="GitHub Streak"/>
 </div>
+
 <div align="center">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&border_radius=10&card_width=500" alt="Top Languages"/>  
 </div>
+
 ## 🏆 Achievements
 
 <div align="center"> 
