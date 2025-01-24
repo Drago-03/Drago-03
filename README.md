@@ -166,7 +166,9 @@ me = Drago()
 ## 📊 GitHub Statistics
 
 <div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Drago-03&theme=tokyonight&hide_border=true&border_radius=10&card_width=500" alt="GitHub Streak"/>
+  
+  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Drago-03&theme=dark&short_numbers=true)](https://git.io/streak-stats)
+    
 </div>
 
 <div align="center">
