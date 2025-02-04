@@ -1,0 +1,24 @@
+name: Update GitHub Readme Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs once every day at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update README Stats
+        run: curl -X GET "https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&border_radius=10&card_width=500"
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Auto-update GitHub stats"
+          git push
