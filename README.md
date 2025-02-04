@@ -173,7 +173,9 @@ me = Drago()
 </div>
 
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&border_radius=10&card_width=500" alt="Top Languages"/>  
+
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&border_radius=10&card_width=500&cache_seconds=86400)
+
 </div>
 
 ## 🏆 Achievements
