@@ -17,14 +17,16 @@ class Drago:
     def __init__(self):
         self.pronouns = ["He", "Him"]
         self.location = "📍 India"
-        self.title = "Back-End Developer & Tech Enthusiast"
+        self.title = "AI Agent Developer & Tech Enthusiast"
         self.education = {
             "background": "Dropped out Automobile Engineer",
             "current_pursuit": "Self-taught Developer and learning cybersecurity tools"
         }
         self.current_focus = [
-            "Backend Services Development",
             "GenAI Projects",
+            "Agentic AI Projects",
+            "Blockchain Based Projects",
+            "Backend Services Development",
             "Cybersecurity Tools"
         ]
         self.passions = {
