@@ -32,7 +32,7 @@ class Drago:
             "Cybersecurity Tools"
         ]
         self.passions = {
-            "technical": ["Linux", "System Architecture", "Cloud Computing", "Internet of Things", "Generative AI", "Machine Learning"],
+            "technical": [ "RAG Systems", "Agentic AI", "Generative AI", "Machine Learning", "Linux", "System Architecture", "Cloud Computing", "Internet of Things", "Web3 & Blockchain"],
             "automotive": ["Racing", "Car Mechanics", "New Technologies", "Modifications"],
             "personal": ["Travel", "Technical Writing", "Problem Solving", "Documentations"]
         }
