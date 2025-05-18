@@ -18,7 +18,7 @@
 class Drago:
     def __init__(self):
         self.pronouns = ["He", "Him"]
-        self.location = "📍 India"
+        self.location = "India"
         self.title = "AI Agent Developer & Tech Enthusiast"
         self.education = {
             "background": "Dropped out Automobile Engineer",
@@ -39,7 +39,7 @@ class Drago:
         }
     
     def get_fun_fact(self):
-        return "I can talk about cars and code all day! ⚡"
+        return "I can talk about cars and code all day!"
     
     def daily_routine(self):
         return ["Code", "Debug", "Coffee", "sleep", "Repeat"]
