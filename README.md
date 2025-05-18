@@ -25,6 +25,7 @@ class Drago:
             "current_pursuit": "Self-taught Developer and learning cybersecurity tools"
         }
         self.current_focus = [
+            "RAG Systems"
             "GenAI Projects",
             "Agentic AI Projects",
             "Blockchain Based Projects",
@@ -61,6 +62,36 @@ me = Drago()
 [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/_gear_head_03_)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@@dragoo0)
 
+</div>
+
+## 📊 GitHub Statistics
+
+<div align="center">
+  
+  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Drago-03&theme=dark&short_numbers=true)](https://git.io/streak-stats)
+    
+</div>
+
+<div align="center">
+
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&border_radius=10&card_width=500&cache_seconds=86400)
+
+</div>
+
+## 🏆 Achievements
+
+<div align="center"> 
+  
+  [![Trophy](https://github-profile-trophy.vercel.app/?username=Drago-03&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/Drago-03)
+  
+</div>
+
+## 📈 Contribution Graph
+
+<div align="center">
+  
+  [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Drago-03&theme=tokyo-night&hide_border=true&radius=10&area=true&height=300)](https://github.com/Drago-03)
+  
 </div>
 
 <div align="center">
