@@ -94,6 +94,14 @@ me = Drago()
   
 </div>
 
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/Drago-03/Drago-03/output/snake.svg" alt="Snake animation" />
+
+###
+
 <div align="center">
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling"/>
