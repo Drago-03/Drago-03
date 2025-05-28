@@ -102,8 +102,8 @@ me = Drago()
 
 ###
 
-<!--START_SECTION:Profile Readme Development Stats-->
-<!--END_SECTION:Profile Readme Development Stats-->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 <div align="center">
   
