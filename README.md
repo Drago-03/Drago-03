@@ -56,43 +56,63 @@ me = Drago()
 
 ## 🌐 Connect With Me
 
-<div align="center">
+<details>
+  <summary><b>Social Links</b></summary>
+  <br>
+  
+  <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mantej-singh-a-724219288)
-[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/_gear_head_03_)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@@dragoo0)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mantej-singh-a-724219288)
+  [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/_gear_head_03_)
+  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@@dragoo0)
 
-</div>
+  </div>
+</details>
 
 ## 📊 GitHub Statistics
 
-<div align="center">
+<details>
+  <summary><b>Streak & Language Stats</b></summary>
+  <br>
+  
+  <div align="center">
   
   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Drago-03&theme=dark&short_numbers=true)](https://git.io/streak-stats)
     
-</div>
+  </div>
 
-<div align="center">
+  <div align="center">
 
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&border_radius=10&card_width=500&cache_seconds=86400)
 
-</div>
+  </div>
+</details>
 
 ## 🏆 Achievements
 
-<div align="center"> 
+<details>
+  <summary><b>GitHub Trophies</b></summary>
+  <br>
+  
+  <div align="center"> 
   
   [![Trophy](https://github-profile-trophy.vercel.app/?username=Drago-03&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/Drago-03)
   
-</div>
+  </div>
+</details>
 
 ## 📈 Contribution Graph
 
-<div align="center">
+<details>
+  <summary><b>Activity Overview</b></summary>
+  <br>
+  
+  <div align="center">
   
   [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Drago-03&theme=tokyo-night&hide_border=true&radius=10&area=true&height=300)](https://github.com/Drago-03)
   
-</div>
+  </div>
+</details>
 
 ###
 
@@ -100,10 +120,10 @@ me = Drago()
 
 <img src="https://raw.githubusercontent.com/Drago-03/Drago-03/output/snake.svg" alt="Snake animation" />
 
-###
+<br>
 
 <details>
-  <summary><b>Stats</b></summary>
+  <summary><b>Coding Metrics</b></summary>
   <br>
   
   <!--START_SECTION:waka-->
