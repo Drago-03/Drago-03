@@ -29,5 +29,5 @@ jobs:
           SHOW_LOC_CHART: "True"
           SHOW_TOTAL_CODE_TIME: "True"
           SHOW_UPDATED_DATE: "True"
-          COMMIT_MESSAGE: "🔥 Updated with fire Waka Stats"
+          COMMIT_MESSAGE: "Updated the Stats"
           LOCALE: "en"
