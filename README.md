@@ -102,8 +102,13 @@ me = Drago()
 
 ###
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+<details>
+  <summary><b>🔥 More Stats</b></summary>
+  <br>
+  
+  <!--START_SECTION:waka-->
+  <!--END_SECTION:waka-->
+</details>
 
 <div align="center">
   
