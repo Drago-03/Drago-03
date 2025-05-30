@@ -127,17 +127,17 @@ me = Drago()
   <br>
   
   <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%20hrs%2046%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%20hr%2057%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-207-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-214-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-19.4%20million%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 953.8 kB Used in GitHub's Storage 
+> 📦 954.1 kB Used in GitHub's Storage 
  > 
-> 🏆 1,591 Contributions in the Year 2025
+> 🏆 0 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -207,7 +207,7 @@ Java                     1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Drago-03/Drago-03/main/assets/bar_graph.png)
 
 
- Last Updated on 30/05/2025 13:59:22 UTC
+ Last Updated on 30/05/2025 18:43:57 UTC
 <!--END_SECTION:waka-->
 </details>
 
