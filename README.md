@@ -127,24 +127,10 @@ me = Drago()
   <br>
   
   <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-126%20hrs%2032%20mins-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-119%20hrs%2011%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-42.1%20million%20lines%20of%20code-blue)
 
-**🐱 My GitHub Data** 
-
-> 📦 1.2 MB Used in GitHub's Storage 
- > 
-> 🏆 1,905 Contributions in the Year 2025
- > 
-> 💼 Opted to Hire
- > 
-> 📜 77 Public Repositories 
- > 
-> 🔑 31 Private Repositories 
- > 
 **I'm an Early 🐤** 
 
 ```text
@@ -177,36 +163,14 @@ Bash                     3 hrs 20 mins       █████░░░░░░�
 Python                   2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.14 % 
 Markdown                 1 hr 36 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.91 % 
 JavaScript               1 hr 20 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.29 % 
-
-🐱‍💻 Projects: 
-Luna-Services            7 hrs 45 mins       ████████████░░░░░░░░░░░░░   47.81 % 
-Documentation.AI         4 hrs 49 mins       ███████░░░░░░░░░░░░░░░░░░   29.77 % 
-DragoDesk                2 hrs 9 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.31 % 
-Spell-Library            1 hr 4 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.63 % 
-mantejsingh              12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.31 % 
-
-💻 Operating System: 
-Mac                      16 hrs 12 mins      █████████████████████████   100.00 % 
 ```
-
-**I Mostly Code in TypeScript** 
-
-```text
-TypeScript               21 repos            ████████░░░░░░░░░░░░░░░░░   33.87 % 
-JavaScript               16 repos            ██████░░░░░░░░░░░░░░░░░░░   25.81 % 
-Python                   16 repos            ██████░░░░░░░░░░░░░░░░░░░   25.81 % 
-Dart                     1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
-Jupyter Notebook         1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
-```
-
-
 
 **Timeline**
 
 ![Lines of Code chart](https://raw.githubusercontent.com/Drago-03/Drago-03/main/assets/bar_graph.png)
 
 
- Last Updated on 31/07/2025 13:58:38 UTC
+ Last Updated on 31/07/2025 18:48:22 UTC
 <!--END_SECTION:waka-->
 </details>
 
