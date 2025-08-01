@@ -127,7 +127,7 @@ me = Drago()
   <br>
   
   <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-119%20hrs%2011%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-127%20hrs%2044%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-42.1%20million%20lines%20of%20code-blue)
 
@@ -158,11 +158,11 @@ Sunday                   4248 commits        ███████████�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-TypeScript               4 hrs 56 mins       ████████░░░░░░░░░░░░░░░░░   30.47 % 
-Bash                     3 hrs 20 mins       █████░░░░░░░░░░░░░░░░░░░░   20.61 % 
-Python                   2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.14 % 
-Markdown                 1 hr 36 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.91 % 
-JavaScript               1 hr 20 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.29 % 
+Python                   5 hrs 8 mins        ██████░░░░░░░░░░░░░░░░░░░   22.84 % 
+TypeScript               4 hrs 48 mins       █████░░░░░░░░░░░░░░░░░░░░   21.33 % 
+Bash                     3 hrs 7 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.91 % 
+Markdown                 2 hrs 47 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.38 % 
+YAML                     2 hrs 40 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.88 % 
 ```
 
 **Timeline**
@@ -170,7 +170,7 @@ JavaScript               1 hr 20 mins        ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Drago-03/Drago-03/main/assets/bar_graph.png)
 
 
- Last Updated on 31/07/2025 18:48:22 UTC
+ Last Updated on 01/08/2025 18:48:27 UTC
 <!--END_SECTION:waka-->
 </details>
 
