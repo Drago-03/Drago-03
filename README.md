@@ -158,11 +158,7 @@ Sunday                   5018 commits        ███████████�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-TypeScript               6 hrs 10 mins       ████████████████████░░░░░   79.45 % 
-Markdown                 51 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.98 % 
-Bash                     13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
-Other                    11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.51 % 
-JavaScript               9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.98 % 
+No Activity Tracked This Week
 ```
 
 **Timeline**
@@ -170,7 +166,7 @@ JavaScript               9 mins              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Drago-03/Drago-03/main/assets/bar_graph.png)
 
 
- Last Updated on 27/08/2025 18:44:04 UTC
+ Last Updated on 29/08/2025 18:43:30 UTC
 <!--END_SECTION:waka-->
 </details>
 
