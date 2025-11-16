@@ -127,46 +127,14 @@ me = Drago()
   <br>
   
   <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-216%20hrs%2019%20mins-blue)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-68.5%20million%20lines%20of%20code-blue)
-
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                4680 commits        ███████████░░░░░░░░░░░░░░   43.02 % 
-🌆 Daytime                3621 commits        ████████░░░░░░░░░░░░░░░░░   33.28 % 
-🌃 Evening                1968 commits        █████░░░░░░░░░░░░░░░░░░░░   18.09 % 
-🌙 Night                  610 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.61 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   1773 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.30 % 
-Tuesday                  912 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.38 % 
-Wednesday                621 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.71 % 
-Thursday                 565 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.19 % 
-Friday                   898 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.25 % 
-Saturday                 1140 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.48 % 
-Sunday                   4970 commits        ███████████░░░░░░░░░░░░░░   45.68 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-```
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-68.7%20million%20lines%20of%20code-blue)
 
 **Timeline**
 
 ![Lines of Code chart](https://raw.githubusercontent.com/Drago-03/Drago-03/main/assets/bar_graph.png)
 
 
- Last Updated on 15/11/2025 18:45:47 UTC
+ Last Updated on 16/11/2025 18:44:29 UTC
 <!--END_SECTION:waka-->
 </details>
 
