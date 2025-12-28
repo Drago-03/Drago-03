@@ -127,7 +127,7 @@ me = Drago()
   <br>
   
   <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-216%20hrs%2019%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-217%20hrs%202%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-72.4%20million%20lines%20of%20code-blue)
 
@@ -158,7 +158,11 @@ Sunday                   5104 commits        ███████████�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+TOML                     20 mins             ████████████░░░░░░░░░░░░░   47.35 % 
+TypeScript               14 mins             █████████░░░░░░░░░░░░░░░░   34.38 % 
+TSConfig                 7 mins              ████░░░░░░░░░░░░░░░░░░░░░   17.66 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.58 % 
+HTML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
 ```
 
 **Timeline**
@@ -166,7 +170,7 @@ No Activity Tracked This Week
 ![Lines of Code chart](https://raw.githubusercontent.com/Drago-03/Drago-03/main/assets/bar_graph.png)
 
 
- Last Updated on 27/12/2025 18:47:05 UTC
+ Last Updated on 28/12/2025 18:48:57 UTC
 <!--END_SECTION:waka-->
 </details>
 
