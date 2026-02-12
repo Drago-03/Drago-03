@@ -19,10 +19,10 @@ class Mantej:
     def __init__(self):
         self.pronouns = ["He", "Him"]
         self.location = "India"
-        self.title = "AI Agent Developer & Tech Enthusiast"
+        self.title = "Full Stack Blockchain & AI Developer"
         self.education = {
             "background": "Dropped out Automobile Engineer",
-            "current_pursuit": "Self-taught Developer and learning cybersecurity tools"
+            "current_pursuit": "Self-taught Blockchain and AI Developer and learning cybersecurity tools"
         }
         self.current_focus = [
             "RAG Systems"
