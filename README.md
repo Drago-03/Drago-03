@@ -1,184 +1,99 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=4000&pause=1000&color=6AD3FF&center=true&vCenter=true&random=false&width=500&height=70&lines=Hi+%F0%9F%91%8B+I'm+Mantej" alt="Typing SVG" />
-</div>
 
-<div align="center">
-  <h2>
-    Welcome to My Digital Playground
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-  </h2>
-</div>
+<h3><code>mantej@github ~ $ ./contributions.sh</code></h3>
 
+<img src="./contrib-heatmap.svg" width="860" alt="contribution heatmap" />
 
+<br><br>
 
-<h2> 🚀 Quick Facts </h2>
+<h3><code>mantej@github ~ $ whoami</code></h3>
 
-
-```python
-class Mantej:
-    def __init__(self):
-        self.pronouns = ["He", "Him"]
-        self.location = "India"
-        self.title = "Full Stack Blockchain & AI Developer"
-        self.education = {
-            "background": "Dropped out Automobile Engineer",
-            "current_pursuit": "Self-taught Blockchain and AI Developer and learning cybersecurity tools"
-        }
-        self.current_focus = [
-            "RAG Systems"
-            "GenAI Projects",
-            "Agentic AI Projects",
-            "Blockchain Based Projects",
-            "Backend Services Development",
-            "Cybersecurity Tools"
-        ]
-        self.passions = {
-            "technical": [ "RAG Systems", "Agentic AI", "Generative AI", "Machine Learning", "Linux", "System Architecture", "Cloud Computing", "Internet of Things", "Web3 & Blockchain"],
-            "automotive": ["Racing", "Car Mechanics", "New Technologies", "Modifications"],
-            "personal": ["Travel", "Technical Writing", "Problem Solving", "Documentations"]
-        }
-    
-    def get_fun_fact(self):
-        return "I can talk about cars and code all day!"
-    
-    def daily_routine(self):
-        return ["Code", "Debug", "Coffee", "sleep", "Repeat"]
-
-# Creating Drago instance
-me = Drago()
-```
-
-<div align="center">
-  <img src="https://media0.giphy.com/media/iJDLBX5GY8niCpZYkR/source.gif" alt="Racing Car GIF" width="275" height="185"/>
-  <img src="https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="Laptop Typing GIF" width="275" height="185"/>
-  <img src="https://i.gifer.com/origin/89/894182626f762e66170dab57945c4b9e.gif" alt="Globe Spinning GIF" width="275" height="185"/>
-</div>
-
-## 🌐 Connect With Me
-
-<details>
-  <summary><b>Social Links</b></summary>
-  <br>
-  
-  <div align="center">
-
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mantej-singh-a-724219288)
-  [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/_gear_head_03_)
-  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@@dragoo0)
-
-  </div>
-</details>
-
-## 📊 GitHub Statistics
-
-<details>
-  <summary><b>Streak & Language Stats</b></summary>
-  <br>
-  
-  <div align="center">
-  
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Drago-03&theme=dark&short_numbers=true)](https://git.io/streak-stats)
-    
-  </div>
-
-  <div align="center">
-
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&border_radius=10&card_width=500&cache_seconds=86400)
-
-  </div>
-</details>
-
-## 🏆 Achievements
-
-<details>
-  <summary><b>GitHub Trophies</b></summary>
-  <br>
-  
-  <div align="center"> 
-  
-  [![Trophy](https://github-profile-trophy.vercel.app/?username=Drago-03&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/Drago-03)
-  
-  </div>
-</details>
-
-## 📈 Contribution Graph
-
-<details>
-  <summary><b>Activity Overview</b></summary>
-  <br>
-  
-  <div align="center">
-  
-  [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Drago-03&theme=tokyo-night&hide_border=true&radius=10&area=true&height=300)](https://github.com/Drago-03)
-  
-  </div>
-</details>
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Drago-03/Drago-03/output/snake.svg" alt="Snake animation" />
+<table>
+<tr>
+<td valign="top"><img src="./avi-ascii.svg" width="370" alt="ascii self-portrait" /></td>
+<td valign="top"><img src="./info-card.svg" width="490" alt="neofetch info card" /></td>
+</tr>
+</table>
 
 <br>
 
-<details>
-  <summary><b>Coding Metrics</b></summary>
-  <br>
-  
-  <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-221%20hrs%2021%20mins-blue?style=flat)
+<h3><code>mantej@github ~ $ cat stack.txt</code></h3>
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-58.07%20million%20lines%20of%20code-blue?style=flat)
+**AI / ML**
 
-**I'm an Early 🐤** 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-6AD3FF?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-6AD3FF?style=for-the-badge)
 
-```text
-🌞 Morning                5271 commits        ███████████░░░░░░░░░░░░░░   43.63 % 
-🌆 Daytime                3480 commits        ███████░░░░░░░░░░░░░░░░░░   28.81 % 
-🌃 Evening                2213 commits        █████░░░░░░░░░░░░░░░░░░░░   18.32 % 
-🌙 Night                  1116 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.24 % 
-```
-📅 **I'm Most Productive on Sunday** 
+**Web / Backend**
 
-```text
-Monday                   1780 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.74 % 
-Tuesday                  929 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
-Wednesday                1550 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.83 % 
-Thursday                 830 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.87 % 
-Friday                   856 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.09 % 
-Saturday                 1179 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.76 % 
-Sunday                   4956 commits        ██████████░░░░░░░░░░░░░░░   41.03 % 
-```
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
+**Web3**
 
-📊 **This Week I Spent My Time On** 
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 
-```text
-🕑︎ Time Zone: Asia/Kolkata
+**Tools**
 
-💬 Programming Languages: 
-No Activity Tracked This Week
-```
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-**Timeline**
+<br>
 
-![Lines of Code chart](https://raw.githubusercontent.com/Drago-03/Drago-03/main/assets/bar_graph.png)
+<h3><code>mantej@github ~ $ ls projects/</code></h3>
 
+| Project | What it is | Link |
+|---|---|---|
+| **MADHAVA AI** | India's foundational Creative-Art LLM & frontier models | [Repo →](https://github.com/Drago-03/M.A.D.H.A.V.A.) |
+| **MADHAVA Coder CLI** | Agentic coding tool | [Repo →](https://github.com/Drago-03/MADHAVA-Coder-CLI) |
+| **Shiplabs** | Pathshala Coach — our AI learning/coaching product | [Repo →](https://github.com/Drago-03/Shiplabs) |
+| **MERAKI** | AI creative studio — craft & own stories, comics, poetry on-chain | [Site →](https://comicraft.xyz) |
+| **Indie Torrent** | A blockchain-native, home-brewed P2P file network | [Repo →](https://github.com/Drago-03/Indie-Torrent) |
+| **Friday** | Your autonomous AI companion for macOS | [Repo →](https://github.com/Drago-03/Friday) |
+| **Neural-Nexus** | AI model marketplace w/ Web3 ownership transfer | [Repo →](https://github.com/Drago-03/Neural-Nexus) |
+| **Luna-MCP-Services** | Punch AI Hackathon solution | [Repo →](https://github.com/Drago-03/Luna-MCP-Services) |
+| **IndieGo** | AI Discord bot for developers | [Repo →](https://github.com/IndieHub25/IndieGo) |
+| **Prastut-AI** | Multi-modal attendance & surveillance (computer vision) | [Repo →](https://github.com/Drago-03/Prastut-AI) |
+| **ProjectAtlas** | Enterprise analytics & navigation for VS Code (built during my diploma) | [Repo →](https://github.com/Drago-03/ProjectAtlas) |
 
- Last Updated on 22/07/2026 20:22:16 UTC
-<!--END_SECTION:waka-->
-</details>
+<br>
 
-<div align="center">
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling"/>
-</div>
+<h3><code>mantej@github ~ $ ./achievements.sh</code></h3>
 
----
+![Pair Extraordinaire](https://img.shields.io/badge/Pair_Extraordinaire-x3-39d353?style=for-the-badge)
+![Pull Shark](https://img.shields.io/badge/Pull_Shark-x2-39d353?style=for-the-badge)
+![Galaxy Brain](https://img.shields.io/badge/Galaxy_Brain-39d353?style=for-the-badge)
+![Starstruck](https://img.shields.io/badge/Starstruck-39d353?style=for-the-badge)
+![YOLO](https://img.shields.io/badge/YOLO-39d353?style=for-the-badge)
+![Public Sponsor](https://img.shields.io/badge/Public_Sponsor-39d353?style=for-the-badge)
+![Quickdraw](https://img.shields.io/badge/Quickdraw-39d353?style=for-the-badge)
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1000&color=6AD3FF&center=true&vCenter=true&repeat=false&width=500&lines=Happy+Coding!+Feel+free+to+connect+and+collaborate!" alt="Footer Typing SVG" />
-  
-  <br>
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Drago-03&theme=tokyonight&hide_border=true" alt="streak stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&theme=tokyonight&hide_border=true" alt="top languages" />
+
+<br>
+
+<h3><code>mantej@github ~ $ ./links.sh</code></h3>
+
+**Fullstack Developer · AI Builder · Founder @ Indie Hub**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-mantej.in-6AD3FF?style=for-the-badge&logo=vercel&logoColor=white)](https://www.mantej.in)
+[![Indie Hub](https://img.shields.io/badge/Indie_Hub-indiehub.co.in-6AD3FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.indiehub.co.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mantej-singh-arora/)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/_gear_head_03_)
+[![Email](https://img.shields.io/badge/Email-contact@mantej.in-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@mantej.in)
+
+<br>
+
+OSS / personal: contact@mantej.in · mantejarora@gmail.com&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Company: contact@indiehub.co.in
+
 </div>

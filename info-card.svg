@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="296" viewBox="0 0 490 296" font-family="SFMono-Regular, Consolas, Menlo, monospace">
+<style>
+.row{opacity:0;transform:translateX(-10px);transform-box:fill-box;transform-origin:left;animation:fadeSlide 0.35s ease-out forwards;}
+@keyframes fadeSlide{to{opacity:1;transform:translateX(0);}}
+</style>
+<clipPath id="cardClip"><rect x="0" y="0" width="490" height="296" rx="12"/></clipPath>
+<g clip-path="url(#cardClip)">
+  <rect width="490" height="296" fill="#0d1117"/>
+  <rect width="490" height="34" fill="#161b22"/>
+  <circle cx="18" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="38" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="58" cy="17" r="6" fill="#27c93f"/>
+  <text x="245" y="22" font-size="13" fill="#8b949e" text-anchor="middle">mantej@indiehub</text>
+
+  <g class="row" style="animation-delay:0.25s">
+    <text x="24" y="75" font-size="14" xml:space="preserve"><tspan fill="#39d353" font-weight="600">Name     : </tspan><tspan fill="#c9d1d9">Mantej Singh (he/him)</tspan></text>
+  </g>
+  <g class="row" style="animation-delay:0.37s">
+    <text x="24" y="107" font-size="14" xml:space="preserve"><tspan fill="#39d353" font-weight="600">Role     : </tspan><tspan fill="#c9d1d9">Full-Stack AI &amp; Web3 Dev</tspan></text>
+  </g>
+  <g class="row" style="animation-delay:0.49s">
+    <text x="24" y="139" font-size="14" xml:space="preserve"><tspan fill="#39d353" font-weight="600">Founder  : </tspan><tspan fill="#c9d1d9">Indie Hub</tspan></text>
+  </g>
+  <g class="row" style="animation-delay:0.61s">
+    <text x="24" y="171" font-size="14" xml:space="preserve"><tspan fill="#39d353" font-weight="600">Location : </tspan><tspan fill="#c9d1d9">Chandigarh, India</tspan></text>
+  </g>
+  <g class="row" style="animation-delay:0.73s">
+    <text x="24" y="203" font-size="14" xml:space="preserve"><tspan fill="#39d353" font-weight="600">Focus    : </tspan><tspan fill="#c9d1d9">RAG &#183; GenAI &#183; Agents</tspan></text>
+  </g>
+  <g class="row" style="animation-delay:0.85s">
+    <text x="24" y="235" font-size="14" xml:space="preserve"><tspan fill="#39d353" font-weight="600">Uptime   : </tspan><tspan fill="#c9d1d9">Always building</tspan></text>
+  </g>
+  <g class="row" style="animation-delay:0.97s">
+    <text x="24" y="267" font-size="14" xml:space="preserve"><tspan fill="#39d353" font-weight="600">Shell    : </tspan><tspan fill="#6AD3FF">mantej.in &#8594;</tspan></text>
+  </g>
+</g>
+<rect x="0.5" y="0.5" width="489" height="295" rx="12" fill="none" stroke="#21262d"/>
+</svg>
