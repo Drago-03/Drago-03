@@ -21,7 +21,7 @@
 
 I'm a full-stack **Blockchain & AI developer** and the founder of **Indie Hub**, where I build intelligent systems that turn hard problems into shipped products. My work lives at the intersection of **AI, Web3, and clean engineering** — RAG-based document assistants, AI model marketplaces, creative studios, and the backend architectures that hold them together.
 
-At Indie Hub I've built **MERAKI** (an AI creative studio where people craft stories, comics & poetry and own them on-chain), **MADHAVA** (India's own foundational Creative-Art LLM), **Neural Nexus** (an AI model marketplace), and **Prastut AI** (a computer-vision attendance & surveillance system). The thread through all of it: systems that are genuinely useful, scale cleanly, and feel good to use — not just demos.
+At Indie Hub I've built **MERAKI** (an AI creative studio where people craft stories, comics & poetry and own them on-chain), **MADHAVA AI** (India's own foundational constitutional coder LLM), **Neural Nexus** (an AI model marketplace), and **Prastut AI** (a computer-vision attendance & surveillance system). The thread through all of it: systems that are genuinely useful, scale cleanly, and feel good to use — not just demos.
 
 I work fluently across **Python, Flask, REST APIs, Next.js and database design**, and go deep on **Retrieval-Augmented Generation and NLP** to bring intelligent automation into document-heavy and legal domains. Hands-on with **Microsoft Security Copilot, Azure AI Foundry, and GitHub Copilot**. 3× hackathon winner & 2× runner-up across 20+ national and 10+ global hackathons, with 10+ Top-10 finishes.
 
@@ -100,7 +100,7 @@ Open source is where a lot of my energy goes — **LFX Mentee** with the Linux F
 
 | Project | What it is |
 |---|---|
-| **MADHAVA AI** | India's foundational Creative-Art LLM & frontier models |
+| **MADHAVA AI** | India's foundational constitutional coder LLM & frontier models |
 | **MADHAVA Coder CLI** | Agentic coding tool |
 | **Shiplabs** | Pathshala Coach — our AI learning/coaching product |
 | **MERAKI** | AI creative studio — craft & own stories, comics, poetry on-chain |
@@ -146,5 +146,11 @@ https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?userna
 <br>
 
 OSS / personal: contact@mantej.in · mantejarora@gmail.com&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Company: contact@indiehub.co.in
+
+<br><br>
+
+<h3><code>mantej@github ~ $ ./race.sh</code></h3>
+
+<img src="./race-footer.svg" width="860" alt="F1 cars racing" />
 
 </div>

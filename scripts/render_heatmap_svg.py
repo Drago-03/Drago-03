@@ -2,8 +2,10 @@
 """data/contributions.json -> animated GitHub-style contribution heatmap SVG.
 
 Usage: python scripts/render_heatmap_svg.py
-Output: contrib-heatmap.svg — cells pop in diagonally (top-left to
-bottom-right) once on load via CSS keyframes, then freeze. No loop.
+Output: contrib-heatmap.svg — a two-phase intro that plays once then
+freezes (no loop): an F1 car drifts across the top (phase A), then the
+contribution grid pop-in reveals diagonally, delayed so it looks like
+the car kicked it up (phase B).
 """
 import json
 from datetime import date, datetime, timedelta
@@ -15,20 +17,63 @@ OUT_PATH = Path("contrib-heatmap.svg")
 PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
 BG = "#0d1117"
 ACCENT = "#6AD3FF"
+RED = "#DC0000"
+GREEN_PULSE = PALETTE[4]
 FG_DIM = "#8b949e"
 
 WIDTH = 860
+CAR_LANE_H = 32   # top strip reserved for the F1 car flyby
 MARGIN_LEFT = 30
 MARGIN_RIGHT = 14
-MARGIN_TOP = 20
+MARGIN_TOP = 20 + CAR_LANE_H
 GAP = 3
 WEEKDAY_LABELS = {1: "Mon", 3: "Wed", 5: "Fri"}
 MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
+CAR_DUR = 1.2          # phase A: car sweeps left -> right across the top
 POP_DUR = 0.3
 POP_STAGGER = 0.018
-POP_BASE_DELAY = 0.1
+POP_BASE_DELAY = 1.1   # phase B starts as the car exits (overlaps its tail)
+
+
+def render_car() -> str:
+    """stylized F1 car (pure SVG shapes) drifting across the top, once."""
+    car_w = 70
+    start_x, end_x = -car_w - 10, WIDTH + 10
+    end_y = 6  # slight downward drift toward the grid
+
+    trail = []
+    for frac in (0.05, 0.2, 0.35, 0.5, 0.65, 0.8):
+        cx = start_x + frac * (end_x - start_x) + car_w / 2
+        begin = frac * CAR_DUR + 0.04
+        trail.append(
+            f'<ellipse cx="{cx:.1f}" cy="18" rx="11" ry="4" fill="{FG_DIM}" opacity="0">'
+            f'<animate attributeName="opacity" values="0;0.32;0" keyTimes="0;0.3;1" '
+            f'dur="0.45s" begin="{begin:.2f}s" fill="freeze"/></ellipse>'
+        )
+
+    car = (
+        f'<g transform="translate({start_x},0)">'
+        f'<animateTransform attributeName="transform" type="translate" '
+        f'from="{start_x},0" to="{end_x},{end_y}" dur="{CAR_DUR}s" begin="0s" fill="freeze"/>'
+        '<g><animateTransform attributeName="transform" type="rotate" '
+        'values="0 35 13;-6 35 13;4 35 13;-2 35 13;0 35 13" keyTimes="0;0.25;0.55;0.8;1" '
+        f'dur="{CAR_DUR}s" begin="0s" fill="freeze"/>'
+        f'<rect x="0" y="1" width="6" height="2" fill="{ACCENT}"/>'
+        f'<rect x="0" y="13" width="6" height="2" fill="{ACCENT}"/>'
+        '<rect x="0" y="2" width="4" height="12" fill="#111"/>'
+        f'<path d="M6,13 L10,13 L16,7 L34,5 L44,6 L52,9 L62,10 L66,11 L66,14 L58,15 L50,15 '
+        f'L44,16 L20,16 L12,15 L6,15 Z" fill="{RED}"/>'
+        '<path d="M28,7 Q34,-1 40,7" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>'
+        '<rect x="66" y="9" width="4" height="8" fill="#111"/>'
+        f'<rect x="64" y="8" width="6" height="2" fill="{ACCENT}"/>'
+        f'<rect x="64" y="16" width="6" height="2" fill="{ACCENT}"/>'
+        '<circle cx="16" cy="18" r="5" fill="#111"/><circle cx="16" cy="18" r="2" fill="#444"/>'
+        '<circle cx="52" cy="18" r="5" fill="#111"/><circle cx="52" cy="18" r="2" fill="#444"/>'
+        '</g></g>'
+    )
+    return "".join(trail) + car
 
 
 def build_weeks(days: list[dict]) -> list[list[dict | None]]:
@@ -81,6 +126,7 @@ def render_svg(payload: dict) -> str:
         '@keyframes popIn{to{opacity:1;transform:scale(1);}}'
         '</style>',
         f'<rect width="{WIDTH}" height="{height}" fill="{BG}"/>',
+        render_car(),
     ]
 
     # month labels
@@ -136,8 +182,13 @@ def render_svg(payload: dict) -> str:
     streak_line = (f'current streak {payload["current_streak"]}d · '
                     f'longest streak {payload["longest_streak"]}d · '
                     f'best day {payload["best_day"]["count"]} on {payload["best_day"]["date"]}')
+    last_cell_delay = POP_BASE_DELAY + ((cols - 1) + 6) * POP_STAGGER
+    pulse_begin = last_cell_delay + POP_DUR + 0.15
     parts.append(f'<text x="{MARGIN_LEFT}" y="{footer_y1:.1f}" font-size="13" font-weight="600" '
-                 f'fill="{ACCENT}">{total_line}</text>')
+                 f'fill="{ACCENT}">{total_line}'
+                 f'<animate attributeName="fill" values="{ACCENT};{GREEN_PULSE};{ACCENT}" '
+                 f'keyTimes="0;0.5;1" dur="0.6s" begin="{pulse_begin:.2f}s" fill="freeze"/>'
+                 f'</text>')
     parts.append(f'<text x="{MARGIN_LEFT}" y="{footer_y2:.1f}" font-size="11" fill="{FG_DIM}">{streak_line}</text>')
 
     parts.append('</svg>')
