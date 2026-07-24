@@ -66,9 +66,6 @@ Open source is where a lot of my energy goes — **LFX Mentee** with the Linux F
 <br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Drago-03&theme=tokyonight&hide_border=true" alt="streak stats" />
-<a href="https://github.com/Drago-03"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drago-03&layout=compact&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&langs_count=10&card_width=460" alt="top languages" /></a>
-<!-- if the top-langs card 404s, swap the host above for the mirror:
-https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=Drago-03&layout=compact&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&langs_count=10&card_width=460 -->
 
 <br>
 

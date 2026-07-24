@@ -2,10 +2,11 @@
 """data/contributions.json -> animated GitHub-style contribution heatmap SVG.
 
 Usage: python scripts/render_heatmap_svg.py
-Output: contrib-heatmap.svg — a two-phase intro that plays once then
-freezes (no loop): an F1 car drifts across the top (phase A), then the
-contribution grid pop-in reveals diagonally, delayed so it looks like
-the car kicked it up (phase B).
+Output: contrib-heatmap.svg — the contribution grid pop-in reveals
+diagonally ONCE on load and then stays solid (plain CSS animation,
+iteration-count 1 by default — no loop). Independently of that, an F1
+car drifts across the top on its own indefinite loop (drive-through,
+then parked off-canvas, repeat) forever, on top of the finished grid.
 """
 import json
 from datetime import date, datetime, timedelta
@@ -31,14 +32,19 @@ WEEKDAY_LABELS = {1: "Mon", 3: "Wed", 5: "Fri"}
 MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
-CAR_DUR = 1.2          # phase A: car sweeps left -> right across the top
+CYCLE = 5.0             # full loop: drive-through + rest, then repeats forever
+DRIVE_FRAC = 0.3        # ~1.5s of each cycle is the actual drive-through
+CAR_DUR = CYCLE * DRIVE_FRAC
 POP_DUR = 0.3
 POP_STAGGER = 0.018
-POP_BASE_DELAY = 1.1   # phase B starts as the car exits (overlaps its tail)
+POP_BASE_DELAY = 1.1    # grid reveal is a flat one-time delay, independent of the car's loop
 
 
 def render_car() -> str:
-    """stylized F1 car (pure SVG shapes) drifting across the top, once."""
+    """stylized F1 car (pure SVG shapes), looping forever: drives across the
+    top then rests off-canvas before the next pass. Decoupled from the grid's
+    one-time reveal — the grid's CSS pop-in has no iteration-count, so it
+    never repeats no matter how many times the car loops."""
     car_w = 70
     start_x, end_x = -car_w - 10, WIDTH + 10
     end_y = 6  # slight downward drift toward the grid
@@ -47,19 +53,25 @@ def render_car() -> str:
     for frac in (0.05, 0.2, 0.35, 0.5, 0.65, 0.8):
         cx = start_x + frac * (end_x - start_x) + car_w / 2
         begin = frac * CAR_DUR + 0.04
+        k1 = 0.3 * 0.45 / CYCLE
+        k2 = 0.45 / CYCLE
         trail.append(
             f'<ellipse cx="{cx:.1f}" cy="18" rx="11" ry="4" fill="{FG_DIM}" opacity="0">'
-            f'<animate attributeName="opacity" values="0;0.32;0" keyTimes="0;0.3;1" '
-            f'dur="0.45s" begin="{begin:.2f}s" fill="freeze"/></ellipse>'
+            f'<animate attributeName="opacity" values="0;0.32;0;0" '
+            f'keyTimes="0;{k1:.4f};{k2:.4f};1" dur="{CYCLE}s" '
+            f'begin="{begin:.2f}s" repeatCount="indefinite"/></ellipse>'
         )
+
+    wobble_kt = ";".join(f"{k * DRIVE_FRAC:.4f}" for k in (0, 0.25, 0.55, 0.8, 1)) + ";1"
 
     car = (
         f'<g transform="translate({start_x},0)">'
         f'<animateTransform attributeName="transform" type="translate" '
-        f'from="{start_x},0" to="{end_x},{end_y}" dur="{CAR_DUR}s" begin="0s" fill="freeze"/>'
+        f'values="{start_x},0;{end_x},{end_y};{end_x},{end_y}" keyTimes="0;{DRIVE_FRAC:.4f};1" '
+        f'dur="{CYCLE}s" begin="0s" repeatCount="indefinite"/>'
         '<g><animateTransform attributeName="transform" type="rotate" '
-        'values="0 35 13;-6 35 13;4 35 13;-2 35 13;0 35 13" keyTimes="0;0.25;0.55;0.8;1" '
-        f'dur="{CAR_DUR}s" begin="0s" fill="freeze"/>'
+        'values="0 35 13;-6 35 13;4 35 13;-2 35 13;0 35 13;0 35 13" '
+        f'keyTimes="{wobble_kt}" dur="{CYCLE}s" begin="0s" repeatCount="indefinite"/>'
         f'<rect x="0" y="1" width="6" height="2" fill="{ACCENT}"/>'
         f'<rect x="0" y="13" width="6" height="2" fill="{ACCENT}"/>'
         '<rect x="0" y="2" width="4" height="12" fill="#111"/>'
