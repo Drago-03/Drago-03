@@ -85,8 +85,20 @@ OSS / personal: contact@mantej.in · mantejarora@gmail.com&nbsp;&nbsp;&nbsp;|&nb
 
 <br><br>
 
-<h3><code>mantej@github ~ $ ./race.sh</code></h3>
+<div align="center">
 
-<img src="./race-footer.svg" width="860" alt="F1 cars racing" />
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3500&pause=1000&color=6AD3FF&center=true&vCenter=true&width=600&lines=Always+building%2C+always+racing.+%F0%9F%8F%8E%EF%B8%8F;Let's+build+something+meaningful+at+the+edge+of+AI." alt="closing line" />
+
+<br>
+
+<sub><code>mantej@github ~ $ exit</code></sub>
+
+<br>
+
+⚡ <i>Thanks for scrolling — now go ship something.</i>
+
+</div>
 
 </div>

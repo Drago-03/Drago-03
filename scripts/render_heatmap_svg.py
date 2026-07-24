@@ -15,7 +15,7 @@ from pathlib import Path
 DATA_PATH = Path("data/contributions.json")
 OUT_PATH = Path("contrib-heatmap.svg")
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 BG = "#0d1117"
 ACCENT = "#6AD3FF"
 RED = "#DC0000"
@@ -127,8 +127,6 @@ def render_svg(payload: dict) -> str:
     footer_y2 = footer_y1 + 20
     height = round(footer_y2 + 14)
 
-    best = payload["best_day"]["date"]
-
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" '
         f'viewBox="0 0 {WIDTH} {height}" font-family="SFMono-Regular, Consolas, Menlo, monospace">',
@@ -170,7 +168,7 @@ def render_svg(payload: dict) -> str:
                 color = PALETTE[0]
                 title = ""
             else:
-                color = PALETTE[5] if entry["date"] == best and entry["count"] > 0 else PALETTE[entry["level"]]
+                color = PALETTE[entry["level"]]
                 title = f'{entry["count"]} contributions on {entry["date"]}'
             delay = POP_BASE_DELAY + (w + wd) * POP_STAGGER
             parts.append(

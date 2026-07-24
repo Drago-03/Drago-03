@@ -343,7 +343,7 @@
 <rect class="cell" x="738.2" y="52.0" width="12.4" height="12.4" rx="2" fill="#0e4429" style="animation-delay:1.928s"><title>1 contributions on 2026-06-07</title></rect>
 <rect class="cell" x="738.2" y="67.4" width="12.4" height="12.4" rx="2" fill="#0e4429" style="animation-delay:1.946s"><title>1 contributions on 2026-06-08</title></rect>
 <rect class="cell" x="738.2" y="82.8" width="12.4" height="12.4" rx="2" fill="#0e4429" style="animation-delay:1.964s"><title>3 contributions on 2026-06-09</title></rect>
-<rect class="cell" x="738.2" y="98.2" width="12.4" height="12.4" rx="2" fill="#69f0a0" style="animation-delay:1.982s"><title>408 contributions on 2026-06-10</title></rect>
+<rect class="cell" x="738.2" y="98.2" width="12.4" height="12.4" rx="2" fill="#39d353" style="animation-delay:1.982s"><title>408 contributions on 2026-06-10</title></rect>
 <rect class="cell" x="738.2" y="113.6" width="12.4" height="12.4" rx="2" fill="#161b22" style="animation-delay:2.000s"><title>0 contributions on 2026-06-11</title></rect>
 <rect class="cell" x="738.2" y="129.0" width="12.4" height="12.4" rx="2" fill="#161b22" style="animation-delay:2.018s"><title>0 contributions on 2026-06-12</title></rect>
 <rect class="cell" x="738.2" y="144.4" width="12.4" height="12.4" rx="2" fill="#161b22" style="animation-delay:2.036s"><title>0 contributions on 2026-06-13</title></rect>
@@ -386,8 +386,8 @@
 <rect class="cell" x="830.6" y="67.4" width="12.4" height="12.4" rx="2" fill="#0e4429" style="animation-delay:2.054s"><title>1 contributions on 2026-07-20</title></rect>
 <rect class="cell" x="830.6" y="82.8" width="12.4" height="12.4" rx="2" fill="#161b22" style="animation-delay:2.072s"><title>0 contributions on 2026-07-21</title></rect>
 <rect class="cell" x="830.6" y="98.2" width="12.4" height="12.4" rx="2" fill="#0e4429" style="animation-delay:2.090s"><title>1 contributions on 2026-07-22</title></rect>
-<rect class="cell" x="830.6" y="113.6" width="12.4" height="12.4" rx="2" fill="#161b22" style="animation-delay:2.108s"><title>0 contributions on 2026-07-23</title></rect>
-<rect class="cell" x="830.6" y="129.0" width="12.4" height="12.4" rx="2" fill="#161b22" style="animation-delay:2.126s"></rect>
+<rect class="cell" x="830.6" y="113.6" width="12.4" height="12.4" rx="2" fill="#0e4429" style="animation-delay:2.108s"><title>2 contributions on 2026-07-23</title></rect>
+<rect class="cell" x="830.6" y="129.0" width="12.4" height="12.4" rx="2" fill="#0e4429" style="animation-delay:2.126s"><title>6 contributions on 2026-07-24</title></rect>
 <rect class="cell" x="830.6" y="144.4" width="12.4" height="12.4" rx="2" fill="#161b22" style="animation-delay:2.144s"></rect>
 <text x="30" y="192.1" font-size="11" fill="#8b949e">Less</text>
 <rect x="62.0" y="182.8" width="12.4" height="12.4" rx="2" fill="#161b22"/>
@@ -396,6 +396,6 @@
 <rect x="108.2" y="182.8" width="12.4" height="12.4" rx="2" fill="#26a641"/>
 <rect x="123.6" y="182.8" width="12.4" height="12.4" rx="2" fill="#39d353"/>
 <text x="145.0" y="192.1" font-size="11" fill="#8b949e">More</text>
-<text x="30" y="208.8" font-size="13" font-weight="600" fill="#6AD3FF">1,883 contributions in the last year<animate attributeName="fill" values="#6AD3FF;#39d353;#6AD3FF" keyTimes="0;0.5;1" dur="0.6s" begin="2.59s" fill="freeze"/></text>
-<text x="30" y="228.8" font-size="11" fill="#8b949e">current streak 1d · longest streak 45d · best day 408 on 2026-06-10</text>
+<text x="30" y="208.8" font-size="13" font-weight="600" fill="#6AD3FF">1,891 contributions in the last year<animate attributeName="fill" values="#6AD3FF;#39d353;#6AD3FF" keyTimes="0;0.5;1" dur="0.6s" begin="2.59s" fill="freeze"/></text>
+<text x="30" y="228.8" font-size="11" fill="#8b949e">current streak 3d · longest streak 45d · best day 408 on 2026-06-10</text>
 </svg>
